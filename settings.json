@@ -1,0 +1,160 @@
+{
+  // Editor
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabCompletion": "on",
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.autoIndent": "full",
+  "editor.suggestFontSize": 18,
+  "editor.suggestLineHeight": 30,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "expand",
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "on",
+  "editor.guides.indentation": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Comment",
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "Keyword, Storage",
+        "scope": ["Keyword", "Storage"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "Keyword Control",
+        "scope": ["keyword.control"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "scope": "entity.other.attribute-name",
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "entity.name.method.js",
+        "scope": ["entity.name.method.js"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "Language methods",
+        "scope": ["variable.language"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "HTML Attributes",
+        "scope": ["text.html.basic entity.other.attribute-name.html", "text.html.basic entity.other.attribute-name"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "Decorators",
+        "scope": ["tag.decorator.js entity.name.tag.js", "tag.decorator.js punctuation.definition.tag.js"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "ES7 Bind Operator",
+        "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "Markup - Italic",
+        "scope": ["markup.italic"],
+        "settings": {"fontStyle": "italic"}
+      },
+      {
+        "name": "Markup - Bold-Italic",
+        "scope": [
+          "markup.bold markup.italic",
+          "markup.italic markup.bold",
+          "markup.quote markup.bold",
+          "markup.bold markup.italic string",
+          "markup.italic markup.bold string",
+          "markup.quote markup.bold string"
+        ],
+        "settings": {"fontStyle": "bold"}
+      }
+    ]
+  },
+
+  // Fira Code
+  /* "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 46, */
+
+  // Dank Mono
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 18,
+  "editor.lineHeight": 42,
+  "editor.accessibilitySupport": "off",
+
+  // Terminal
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  // Workbench
+  "workbench.tips.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.editor.showTabs": false,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "icons",
+
+  // Window
+  "window.newWindowDimensions": "inherit",
+  "window.zoomLevel": -1,
+
+  // Prettier
+  "prettier.printWidth": 120,
+  "prettier.bracketSpacing": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+
+  // Files
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/vendor/*": true
+  },
+
+  // Rest of configs
+  "update.mode": "manual",
+
+  "html.format.wrapLineLength": 6000,
+
+  "tailwindCSS.emmetCompletions": true,
+
+  "git.enableSmartCommit": true,
+  "git.ignoreLegacyWarning": true,
+
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedVariables": true,
+  "intelephense.diagnostics.undefinedFunctions": true,
+  "intelephense.diagnostics.undefinedConstants": true,
+  "intelephense.diagnostics.undefinedClassConstants": true,
+  "intelephense.diagnostics.undefinedMethods": true,
+  "intelephense.diagnostics.undefinedProperties": true,
+
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false
+}
